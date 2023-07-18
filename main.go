@@ -14,7 +14,7 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Printf("Hello %s! This is Monkey Language!\n", user.Username);
+	fmt.Printf("Hello %s! This is Monkey Language!\n", user.Username)
 	fmt.Printf("Enter any command!\n")
 	repl.Start(os.Stdin, os.Stdout)
 }
